@@ -1,0 +1,32 @@
+{
+  "name": "registra-projeto",
+  "version": "1.0.0",
+  "description": "registrador de projetos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldemir01/Registra-Projeto.git"
+  },
+  "author": "aldemir romario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aldemir01/Registra-Projeto/issues"
+  },
+  "homepage": "https://github.com/Aldemir01/Registra-Projeto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^17.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
